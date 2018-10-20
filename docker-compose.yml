@@ -1,0 +1,9 @@
+version: '3'
+services:
+  exercise-pose-analyzer:
+    container_name: exercise-pose-analyzer
+    image: exercise-pose-analyzer
+    build: .
+    volumes:
+      - ./testset:/app/testset/
+      - ./dataset:/app/dataset/

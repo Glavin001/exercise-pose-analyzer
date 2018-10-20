@@ -1,1 +1,4 @@
 develop-log.md
+*.mp4
+*.mov
+__pycache__
